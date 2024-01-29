@@ -19,3 +19,4 @@ Imports:
     tibblify,
     yyjsonr
 URL: http://rmagno.eu/dataset.json/
+BugReports: https://github.com/ramiromagno/dataset.json/issues

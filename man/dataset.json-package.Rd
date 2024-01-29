@@ -12,6 +12,7 @@ Read and write CDISC Dataset-JSON files (\url{https://www.cdisc.org/dataset-json
 Useful links:
 \itemize{
   \item \url{http://rmagno.eu/dataset.json/}
+  \item Report bugs at \url{https://github.com/ramiromagno/dataset.json/issues}
 }
 
 }

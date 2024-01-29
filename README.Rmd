@@ -29,13 +29,25 @@ Read and write [Dataset-JSON](https://www.cdisc.org/dataset-json) files.
 remotes::install_github("ramiromagno/dataset.json")
 ```
 
-## Read Dataset-JSON
+## Example files
 
-### Adverse Events domain
+Examples [Dataset-JSON](https://www.cdisc.org/dataset-json) files are borrowed
+from
+[DataExchange-DatasetJson/examples](https://github.com/cdisc-org/DataExchange-DatasetJson/tree/master/examples).
+
+For the bundled example files, run:
 
 ```{r}
 library(dataset.json)
 
+print(ds_json_example_path(), n = Inf)
+```
+
+## Read Dataset-JSON
+
+Here is an example where you read a _Adverse Events_ domain dataset:
+
+```{r}
 # Example file: ae.json
 ae <- read_ds_json(ds_json_example_path("ae"))
 
@@ -47,7 +59,7 @@ ae@clinicalData@itemGroupData@label
 ae@clinicalData@itemGroupData@itemData
 ```
 
-### Subject-Level Analysis dataset
+And here an example of an ADaM dataset: Subject-Level Analysis.
 
 ```{r}
 # Example file: adsl.json
