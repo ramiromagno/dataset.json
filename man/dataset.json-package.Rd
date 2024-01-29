@@ -8,6 +8,13 @@
 \description{
 Read and write CDISC Dataset-JSON files (\url{https://www.cdisc.org/dataset-json}).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{http://rmagno.eu/dataset.json/}
+}
+
+}
 \author{
 \strong{Maintainer}: Ramiro Magno \email{rmagno@pattern.institute} (\href{https://orcid.org/0000-0001-5226-3441}{ORCID})
 

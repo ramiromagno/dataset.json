@@ -1,0 +1,10 @@
+url: https://rmagno.eu/dataset.json/
+template:
+  bootstrap: 5
+
+authors:
+  Ramiro Magno:
+    href: https://www.pattern.institute/team/rmagno/
+  Pattern Institute:
+    href: https://www.pattern.institute
+    html: <img src='https://rmagno.eu/dataset.json.examples/reference/figures/pi.svg' height=24>
