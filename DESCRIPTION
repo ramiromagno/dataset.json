@@ -1,0 +1,20 @@
+Package: dataset.json
+Title: Read and Write Dataset-JSON
+Version: 0.0.1
+Authors@R: c(
+    person("Ramiro", "Magno", , "rmagno@pattern.institute", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5226-3441")),
+    person("Pattern Institute", role = c("cph", "fnd"))
+  )
+Description: Read and write CDISC Dataset-JSON files
+    (<https://www.cdisc.org/dataset-json>).
+License: Apache License (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    purrr,
+    S7,
+    tibble,
+    tibblify,
+    yyjsonr

@@ -1,0 +1,66 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# dataset.json <img src="man/figures/logo.svg" align="right" height="139" alt="" />
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+Read and write [Dataset-JSON](https://www.cdisc.org/dataset-json) files.
+
+## Installation
+
+``` r
+# install.packages("remotes")
+remotes::install_github("ramiromagno/dataset.json")
+```
+
+## Read Dataset-JSON
+
+### Adverse Events domain
+
+```{r}
+library(dataset.json)
+
+# Example file: ae.json
+ae <- read_ds_json(ds_json_example_path("ae"))
+
+# Domain
+ae@clinicalData@itemGroupData@name
+ae@clinicalData@itemGroupData@label
+
+# Dataset
+ae@clinicalData@itemGroupData@itemData
+```
+
+### Subject-Level Analysis dataset
+
+```{r}
+# Example file: adsl.json
+adsl <- read_ds_json(ds_json_example_path("adsl"))
+
+# Domain
+adsl@clinicalData@itemGroupData@name
+adsl@clinicalData@itemGroupData@label
+
+# Dataset
+adsl@clinicalData@itemGroupData@itemData
+```
+
+
+## Write Dataset-JSON
+
+TODO.
