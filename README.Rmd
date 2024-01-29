@@ -16,8 +16,8 @@ knitr::opts_chunk$set(
 # dataset.json <img src="man/figures/logo.svg" align="right" height="139" alt="" />
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/ramiromagno/dataset.json/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ramiromagno/dataset.json/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 Read and write [Dataset-JSON](https://www.cdisc.org/dataset-json) files.
